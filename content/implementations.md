@@ -68,6 +68,7 @@ Administrative tools usually allow you to detect, list and interact with Homie d
 | Name         | Homie | Download| Implementation notes   |
 |--------------|----------|---------------|--------------------------------------------|
 | Hodmin      | 2.0      | [Website](https://github.com/rttools/hodmin) |  |
+| Homie-ota    |3.0      | [GitHub](https://github.com/jpmens/homie-ota) | |
 
 
 ## Home automation
