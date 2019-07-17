@@ -28,9 +28,9 @@ where *extension ID* is the extension ID and *extension version* the version of 
 An extension might be designed to support different versions of the Homie convention.
 This is reflected by the *homie versions* part, which is a semicolon (`;`) separated list of all supported Homie versions.
 
-For example the [Meta extension]() with the extension ID *eu.epnw.meta* and version *1.1.0* supports Homie `3.0.1` and `4.x`.
+For example the [Meta extension](https://github.com/homieiot/convention/blob/develop/extensions/documents/homie_meta_extension.md) with the extension ID *eu.epnw.meta* and version *1.1.0* supports Homie `3.0.1` and `4.x`.
 The resulting $extensions entry is *eu.epnw.meta:1.1.0:[3.0.1;4.x]*.
-The [Legacy Stats extension]() with the extension ID *org.homie.legacy-stats* and version *0.1.1* supports Homie `4.x`, so the $extensions entry is *org.homie.legacy-stats:0.1.1:[4.x]*.
+The [Legacy Stats extension](https://github.com/homieiot/convention/blob/develop/extensions/documents/homie_legacy_stats_extension.md) with the extension ID *org.homie.legacy-stats* and version *0.1.1* supports Homie `4.x`, so the $extensions entry is *org.homie.legacy-stats:0.1.1:[4.x]*.
 Now, if the device *super-car* implements both extensions it publishes
 ```java
 homie/super-car/$extensions → "eu.epnw.meta:1.1.0:[3.0.1;4.x],org.homie.legacy-stats:0.1.1:[4.x]"
