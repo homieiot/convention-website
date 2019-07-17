@@ -60,7 +60,7 @@ To create an own extension,
 
 * fork the Homie repository,
 * create a new branch,
-* write your extension in `documents/extensions/your-extension-id.md` based on the [extension template](),
+* write your extension in `documents/extensions/your-extension-id.md` based on the [extension template](https://github.com/homieiot/convention/blob/develop/extensions/extension_template.md),
 * and create a pull request.
 
 # Homie Extensions
@@ -69,6 +69,6 @@ To create an own extension,
 
 | Extension       | Extension Identifier      | Description                                                                                         | Document   |
 |-----------------|---------------------------|-----------------------------------------------------------------------------------------------------|------------|
-| Legacy Stats    | org.homie.legacy-stats    | This extension adds the stats functionality of Homie `3.0.1` to Homie `4.0`                         | [GitHub]() |
-| Legacy Firmware | org.homie.legacy-firmware | This extension adds the firmware, mac and localip device attributes of Homie `3.0.1` to Homie `4.0` | [GitHub]() |
-| Meta            | eu.epnw.meta              | This extension defines how to add metadata and tags to devices, nodes and properties                | [GitHub]() |
+| Legacy Stats    | org.homie.legacy-stats    | This extension adds the stats functionality of Homie `3.0.1` to Homie `4.0`                         | [GitHub](https://github.com/homieiot/convention/blob/develop/extensions/documents/homie_legacy_stats_extension.md) |
+| Legacy Firmware | org.homie.legacy-firmware | This extension adds the firmware, mac and localip device attributes of Homie `3.0.1` to Homie `4.0` | [GitHub](https://github.com/homieiot/convention/blob/develop/extensions/documents/homie_legacy_firmware_extension.md) |
+| Meta            | eu.epnw.meta              | This extension defines how to add metadata and tags to devices, nodes and properties                | [GitHub](https://github.com/homieiot/convention/blob/develop/extensions/documents/homie_meta_extension.md) |
