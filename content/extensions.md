@@ -16,7 +16,7 @@ The license can be chosen freely, even proprietary licenses are possible.
 The recommended license is the [CCA 4.0](https://homieiot.github.io/license), since this is the license Homie itself uses.
 
 ## Extension Identifier
-Every extension is identified by an unique ID and will be linked from this section.
+Every extension is identified by a unique ID and will be linked from this section.
 The ID consists of the reverse domain name and a freely chosen suffix.
 For example, an organization *example.org* wanting to add a feature *our-feature* would choose the extension ID *org.example.our-feature*.
 The proper term *homie* is reserved and must not be used as the suffix or as part of the domain name.
