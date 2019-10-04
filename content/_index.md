@@ -53,7 +53,7 @@ The following topics are published as retained messages to the broker:
       homie / device123 / mythermostat / temperature / $name → Temperature
       homie / device123 / mythermostat / temperature / $unit → °C
       homie / device123 / mythermostat / temperature / $datatype → integer
-      homie / device123 / mythermostat / temperature / $settable → "true"
+      homie / device123 / mythermostat / temperature / $settable → true
 {{< /card >}}
 
 Any Homie compliant controller can now find "My device" and will find out
